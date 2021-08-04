@@ -1,0 +1,153 @@
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+/* 	border: 0; */
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+	quotes: "" "";
+	}
+
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
+}
+
+html{
+	font-size:62.5%;
+}
+body{
+	font-size:1.6rem;
+	line-height:1.5;
+	color:#4f4f4f;
+	font-family: 'Roboto Mono', monospace;
+}
+section{
+	padding: 4% 0;
+}
+a{
+	text-decoration:none;
+	font-family: 'Roboto Mono', monospace;
+}
+h1{
+	font-family: 'Chelsea Market', cursive;
+	font-size:9rem;
+}
+h2{
+	font-family: 'Chelsea Market', cursive;
+	font-size:3rem;
+}
+.right p{
+	font-family: 'Chelsea Market', cursive;
+	font-size:3rem;
+}
+p{
+	font-size:3rem;
+}
+nav{
+	padding: 2% 0;
+}
+nav a{
+	display:inline-block;
+	padding: 1% 0;
+	width: 10%;
+	border-radius: 20px;
+	text-align:center;
+	color:#fff;
+}.orange{
+	background-color:#FF764E;
+	margin:0 12%;
+	
+}
+.blue{
+	background-color:#5ED3EB;
+	margin:0 10.48%;
+}
+.yellow{
+	background-color:#FFCD69;
+	margin:0 12%;
+}
+.orange:hover{
+	background-color:#4d2a20;
+	margin:0 12%;
+	
+}
+.blue:hover{
+	background-color:#4d2a20;
+	margin:0 10.48%;
+}
+.yellow:hover{
+	background-color:#4d2a20;
+	margin:0 12%;
+}
+/* top section styles */
+.left, .right{
+	display: inline-block;
+}
+.left{
+	width: 35%;
+	margin:2%;
+	
+}
+.left img{
+	width:100%;
+	border-radius: 50%;
+	padding: 12%;
+
+}
+.right{
+	width :50%;
+	position:absolute;
+	top:25%;
+	text-align:center;
+}
+.top{
+	position:relative;
+
+}
+.middle{
+	background-color:#DDB9A3;
+	color:white;
+	text-align:center;
+	margin:0 7%;
+	padding: 0 0;
+}
+.bottom img{
+	height:15%;
+	width: 15%;
+	margin:0 auto;
+	display:block;
+}
+.bottom{
+	text-align:center;
+}
+footer img{
+	width:100%;
+	height:80vh;
+}
+footer{
+	background-color:#F9E7DC;
+}
+
